@@ -90,6 +90,14 @@ body {
 .button:focus{
     outline: none;
 }
+#key-features{
+    background: #ff1b68;
+    margin-top: 80px;
+}
+#key-features .section-title{
+    color: white;
+    margin: 32px;
+}
 /* h1 {
     font-family: sans-serif;
 } */
