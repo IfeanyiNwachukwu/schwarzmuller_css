@@ -1,5 +1,5 @@
 main{
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 .background{
     background: url('../img/plans-background.jpg');
@@ -7,14 +7,14 @@ main{
     position:fixed;
     background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: -1;
 }
 .package{
     width: 80%;
-    margin: 16px 0;
-    border: 4px solid #0e4f1f;
+    margin: 1rem 0;
+    border: 2px solid #0e4f1f;
     border-left: none;
     position: relative;
 }
@@ -27,25 +27,25 @@ main{
     text-decoration: none;
     color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 .package__badge{
     position: absolute;
     top: 50px;
     right: 0;
-    margin: 20px;
-    font-size: 12px;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color: white;
     background-color: #ff5454;
-    padding: 8px;
+    padding: 0.5rem;
 }
 .package__subtitle{
     color: #979797;
 }
 .package__info{
-    padding: 16px;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
 }
